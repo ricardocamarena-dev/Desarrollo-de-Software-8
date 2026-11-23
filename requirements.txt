@@ -1,0 +1,11 @@
+# Cliente MQTT usado por bridge.py
+# Instalado por: [Integrante 2] - comunicación MQTT
+paho-mqtt==2.1.0
+
+# Solicitudes HTTP usadas para enviar datos a ThingSpeak
+# Instalado por: [Integrante 3] - integración y nube
+requests==2.34.2
+
+# Cliente oficial usado para insertar registros en Supabase
+# Instalado por: [Integrante 3] - integración con Supabase
+supabase==2.33.0

@@ -20,17 +20,17 @@ MQTT_TOPIC_EVENTS = _BASE + "/eventos"
 
 # --- ThingSpeak (Dashboard + comandos vía TalkBack) ---
 THINGSPEAK_URL = "http://api.thingspeak.com/update"
-THINGSPEAK_WRITE_API_KEY = "4HJJI0K4X6Z2R93R"
+THINGSPEAK_WRITE_API_KEY = "O1O94DVOXYA6XN8T"
 THINGSPEAK_INTERVAL_S = 20      
 
 # TalkBack: crea uno en ThingSpeak (Apps > TalkBack) y pega aquí sus datos.
-TALKBACK_ID = "TU_TALKBACK_ID"
-TALKBACK_API_KEY = "TU_TALKBACK_API_KEY"
+TALKBACK_ID = "	58536"
+TALKBACK_API_KEY = "14SF592GQ1OVY227"
 TALKBACK_INTERVAL_S = 25
 
 # --- Supabase (PostgreSQL vía REST) ---
-SUPABASE_URL = "https://aepcqadeylbqvmraknoa.supabase.co/rest/v1"
-SUPABASE_KEY = "sb_publishable_hVt-D5Uu-5GewU8KTp19Jg_c9_rR7ZR"
+SUPABASE_URL = "https://prhkisrfdeysxcjyfzbg.supabase.co/rest/v1"
+SUPABASE_KEY = "sb_publishable_W0Gln0i8LwLDZ-vskfHSIA_HjKW0wDP"
 SUPABASE_INTERVAL_S = 60
 
 # --- Pines GPIO (Raspberry Pi Pico W) ---

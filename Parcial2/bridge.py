@@ -5,12 +5,12 @@ import paho.mqtt.client as mqtt
 from supabase import create_client, Client
 
 # --- Configuración de Supabase ---
-SUPABASE_URL = "https://aepcqadeylbqvmraknoa.supabase.co"
-SUPABASE_KEY = "sb_publishable_hVt-D5Uu-5GewU8KTp19Jg_c9_rR7ZR"
+SUPABASE_URL = "https://prhkisrfdeysxcjyfzbg.supabase.co"
+SUPABASE_KEY = "sb_publishable_W0Gln0i8LwLDZ-vskfHSIA_HjKW0wDP"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # --- Configuración de ThingSpeak ---
-THINGSPEAK_WRITE_API_KEY = "4HJJI0K4X6Z2R93R" 
+THINGSPEAK_WRITE_API_KEY = "O1O94DVOXYA6XN8T" 
 THINGSPEAK_URL = "https://api.thingspeak.com/update"
 
 # --- Configuración MQTT ---

@@ -58,6 +58,8 @@ def on_message(client, userdata, msg):
                 
             motion_val = 1.0 if (motion is True or motion == 1 or motion == 1.0) else 0.0
             
+            alarm_val = 1 if (motion_val == 1.0 or zone == "PELIGRO") else 0
+            
             # Guardar en Supabase
             rows = [
                 {"sensor_name": "HC-SR04_Distancia", "value": distance, "unit": "cm"},
@@ -71,7 +73,7 @@ def on_message(client, userdata, msg):
                 ts_payload = {
                     "api_key": THINGSPEAK_WRITE_API_KEY,
                     "field1": 1,
-                    "field2": 1 if motion_val == 1.0 else 0,
+                    "field2": alarm_val,
                     "field3": distance,
                     "field4": int(motion_val)
                 }
